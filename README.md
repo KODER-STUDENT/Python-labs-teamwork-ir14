@@ -1,2 +1,2 @@
-# Python-abs-teamwork
+# Python labs teamwork
 python labs for code review practice
