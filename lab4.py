@@ -1,6 +1,6 @@
 class Student:
    
-    def __init__(self, name="Невідомий", rating=0, height=0):
+    def __init__(  self,  name="Невідомий",  rating=0,  height=0  ):
         self.__name = name         
         self.__rating = rating     
         self.__height = height     
