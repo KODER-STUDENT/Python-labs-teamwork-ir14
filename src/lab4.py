@@ -13,7 +13,7 @@ class Student:
     
     def get_height(self):
         return self.__height
-    
+
     def set_rating(self, rating):
         self.__rating = rating
     
