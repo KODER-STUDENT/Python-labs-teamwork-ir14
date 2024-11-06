@@ -14,8 +14,6 @@ class Student:
     def get_height(self):
         return self.__height
     
-    def set_name(self, name):
-        self.__name = name
     
     def set_rating(self, rating):
         self.__rating = rating
@@ -32,8 +30,6 @@ class Student:
     def __del__(self):
         print(f"Deleting student {self.__name}")
 
-    def __str__(self):
-        return f"Student: {self.__name}, Rating: {self.__rating}, Height: {self.__height}"
 
 def remove_low_rated_students(students):
     return [student for student in students if student.get_rating() >= 50]
